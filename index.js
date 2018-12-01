@@ -3,4 +3,4 @@ const bot = new Discord.Client()
 bot.on("ready", () => {
 console.log(`${bot.user.username}` + "is online")
 
-  bot.login(process.env.TOKEN)
+bot.login(process.env.TOKEN)
