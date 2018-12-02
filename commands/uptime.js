@@ -15,7 +15,7 @@ let uptime = `*${hours} hours, ${minutes} minutes and ${seconds} seconds*`;
   
   let uptimee = new Discord.RichEmbed()
   .setColor("RED")
-  .setTitle("Botiso™ Uptime Command")
+  .setTitle("Synotic Apps LLC™ Uptime Command")
   .addField(`󠂪 󠂪`, `**Uptime**: ${uptime}\n󠂪 󠂪`, true)
   .setFooter(`Requested By ${message.author.username}`, `${message.author.avatarURL}`)
   .setTimestamp()
